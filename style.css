@@ -1,0 +1,101 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #548687;
+    text-align: center;
+
+}
+
+
+.messageContainer{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 8vh;
+}
+
+.hide{
+    display: none;
+}
+
+
+.Msg{
+    color: rgb(253, 253, 139);   
+}
+
+#newBttn{
+    background-color: black;
+    color: white;
+    height: 10.5vh;
+    width: 28vh;
+    border: none;
+    border-radius: 3vh;
+    font-size: 20px;
+    cursor: pointer;
+}
+h1{
+    margin-top: 3vh;
+    font-size: 40px;
+}
+
+.mainContainer{
+    margin-top: 10vh;
+}
+
+
+
+
+.mainContainer  button{
+    height: 20vh;
+    width: 20vh;
+    border: none;
+    border-radius: 2vh; 
+    margin-bottom: 8px;
+    background-color: rgb(253, 253, 139);
+    cursor: pointer;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+    font-size: 9vh;
+}
+
+
+.Reset {
+    margin-top: 3vh;
+}
+
+.Reset button{
+    background-color: black;
+    color: white;
+    height: 8vh;
+    width: 19vh;
+    border: none;
+    border-radius: 3vh;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.container1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5vh;
+}
+
+.container2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5vh;
+}
+
+.container3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5vh;
+}
